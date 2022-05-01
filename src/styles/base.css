@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.trans {
+  -webkit-transition: background 200ms, border-radius 150ms;
+  transition: background 200ms, border-radius 150ms;
+  border-radius: 50%;
+}
+
+.trans:active {
+  border-radius: 1rem;
+}
